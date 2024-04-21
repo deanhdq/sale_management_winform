@@ -1,0 +1,60 @@
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\sale-app.exe.config
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\sale-app.exe
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\sale-app.pdb
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.AssemblyReference.cache
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmMain.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.Properties.Resources.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.GenerateResource.cache
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.CoreCompileInputs.cache
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale-app.exe
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale-app.pdb
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\System.Data.SqlClient.dll
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\System.Data.SqlClient.xml
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.CopyComplete
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\MetroFramework.Design.dll
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\MetroFramework.dll
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmCategory.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmCategoryList.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmCustomer.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmCustomerList.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmUnit.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmUnitList.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmProduct.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmProductList.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmSettingPrice.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmPriceList.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmLogin.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmPOS.resources
+C:\Users\AnhQuang\Desktop\sale\sale-app\sale-app\obj\Debug\sale_app.frmQuatity.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\MetroFramework.Design.dll
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\MetroFramework.dll
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\System.Data.SqlClient.dll
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\System.Data.SqlClient.xml
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.AssemblyReference.cache
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmCustomer.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmCustomerList.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmLogin.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmMain.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmPriceList.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmProduct.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmProductList.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmSettingPrice.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmUnit.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmUnitList.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.Properties.Resources.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.GenerateResource.cache
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.CoreCompileInputs.cache
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.Up2Date
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmQuantity.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.POS.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.exe.config
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.exe.manifest
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.application
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.exe
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.pdb
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.exe.manifest
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.application
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.exe
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.pdb
