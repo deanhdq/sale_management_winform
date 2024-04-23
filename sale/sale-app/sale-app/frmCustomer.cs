@@ -20,7 +20,7 @@ namespace sale_app
             this.frmCustomerList = f;
 
         }
-
+      
         private void Clear()
         {
             tbName.Clear();

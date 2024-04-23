@@ -38,6 +38,7 @@
             this.panelLeft = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnDebt = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnFinish = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -81,6 +82,9 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.label6 = new System.Windows.Forms.Label();
             this.panalHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelLeft.SuspendLayout();
@@ -159,6 +163,7 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.btnDebt);
             this.panel4.Controls.Add(this.btnCancel);
             this.panel4.Controls.Add(this.btnFinish);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
@@ -167,6 +172,22 @@
             this.panel4.Size = new System.Drawing.Size(462, 273);
             this.panel4.TabIndex = 17;
             // 
+            // btnDebt
+            // 
+            this.btnDebt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
+            this.btnDebt.FlatAppearance.BorderSize = 0;
+            this.btnDebt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDebt.ForeColor = System.Drawing.Color.White;
+            this.btnDebt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDebt.Location = new System.Drawing.Point(155, 167);
+            this.btnDebt.Name = "btnDebt";
+            this.btnDebt.Size = new System.Drawing.Size(157, 71);
+            this.btnDebt.TabIndex = 19;
+            this.btnDebt.Text = "Mua nợ";
+            this.btnDebt.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDebt.UseVisualStyleBackColor = false;
+            this.btnDebt.Click += new System.EventHandler(this.btnDebt_Click);
+            // 
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(126)))), ((int)(((byte)(34)))));
@@ -174,7 +195,7 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.ForeColor = System.Drawing.Color.White;
             this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancel.Location = new System.Drawing.Point(260, 101);
+            this.btnCancel.Location = new System.Drawing.Point(260, 63);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(157, 71);
             this.btnCancel.TabIndex = 18;
@@ -190,7 +211,7 @@
             this.btnFinish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFinish.ForeColor = System.Drawing.Color.White;
             this.btnFinish.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFinish.Location = new System.Drawing.Point(51, 101);
+            this.btnFinish.Location = new System.Drawing.Point(51, 63);
             this.btnFinish.Name = "btnFinish";
             this.btnFinish.Size = new System.Drawing.Size(157, 71);
             this.btnFinish.TabIndex = 17;
@@ -309,6 +330,7 @@
             // 
             // panel11
             // 
+            this.panel11.Controls.Add(this.label6);
             this.panel11.Controls.Add(this.lbTotalPrice);
             this.panel11.Controls.Add(this.label7);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
@@ -686,6 +708,32 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "HÓA ĐƠN";
             // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dataGridViewImageColumn1.HeaderText = "Thêm";
+            this.dataGridViewImageColumn1.Image = global::sale_app.Properties.Resources.Sum;
+            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            // 
+            // dataGridViewImageColumn2
+            // 
+            this.dataGridViewImageColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dataGridViewImageColumn2.HeaderText = "Xóa";
+            this.dataGridViewImageColumn2.Image = global::sale_app.Properties.Resources.Remove;
+            this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Roboto", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(451, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 35);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "VNĐ";
+            // 
             // POS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
@@ -744,7 +792,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Label label2;
@@ -762,7 +809,6 @@
         private System.Windows.Forms.TextBox tbDiscount;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox tbCustomerPay;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel11;
         public System.Windows.Forms.Label lbTotalPrice;
@@ -780,5 +826,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn TotalPrice;
         private System.Windows.Forms.DataGridViewImageColumn remove_product;
+        public System.Windows.Forms.TextBox tbSearch;
+        public System.Windows.Forms.TextBox tbCustomerPay;
+        private System.Windows.Forms.Button btnDebt;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
+        private System.Windows.Forms.Label label6;
     }
 }

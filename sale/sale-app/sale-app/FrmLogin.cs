@@ -46,6 +46,7 @@ namespace sale_app
             else
             {
                 MessageBox.Show("Sai tên đăng nhập hoặc tài khoản", "Đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.tbPassword.Clear();
             }
         }
         bool Login(string username, string password)

@@ -110,9 +110,6 @@ namespace sale_app
             {
                 e.Handled = true;
             }
-
         }
-
-
     }
 }

@@ -32,6 +32,7 @@ namespace sale_app
         {
             frmSettingPrice frmSettingPrice = new frmSettingPrice(this);
             frmSettingPrice.btnEdit.Visible = false;
+            frmSettingPrice.AcceptButton = frmSettingPrice.btnSave;
             frmSettingPrice.lbID.Text = lbID.Text;
             frmSettingPrice.tbBarcode.Text = tbBarcode.Text;
             frmSettingPrice.tbProductName.Text = tbProductName.Text;
@@ -45,6 +46,7 @@ namespace sale_app
             {
                 frmSettingPrice frmSettingPrice = new frmSettingPrice(this);
                 frmSettingPrice.btnSave.Visible = false;
+                frmSettingPrice.AcceptButton = frmSettingPrice.btnEdit;
                 frmSettingPrice.lbID.Text = lbID.Text;
                 frmSettingPrice.lbUID.Text = dataGridView1[3, e.RowIndex].Value.ToString();
                 frmSettingPrice.loadUnitById(dataGridView1[3, e.RowIndex].Value.ToString());
@@ -81,7 +83,6 @@ namespace sale_app
         {
             // Loại bỏ dấu chấm và dấu phẩy phân tách hàng nghìn
             string cleanInput = input.Replace(".", "").Replace(",", "");
-
             // Thực hiện phân tích chuỗi thành số nguyên
             if (int.TryParse(cleanInput, NumberStyles.AllowThousands, CultureInfo.InvariantCulture, out int number))
             {

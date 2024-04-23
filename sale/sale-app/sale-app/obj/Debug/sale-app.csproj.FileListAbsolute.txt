@@ -49,12 +49,17 @@ C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.
 C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale-app.csproj.Up2Date
 C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.frmQuantity.resources
 C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.POS.resources
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.exe.config
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.exe.manifest
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.application
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.exe
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Đình Sim.pdb
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.exe.manifest
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.application
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.exe
-C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Đình Sim.pdb
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.FrmAddDebts.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.FrmDebtsList.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.FrmHistoryDebts.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.FrmDebtDetail.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\sale_app.FrmAddCustomer.resources
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Sim Đình.exe.config
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Sim Đình.exe.manifest
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Sim Đình.application
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Sim Đình.exe
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\bin\Debug\Tạp Hóa Sim Đình.pdb
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Sim Đình.exe.manifest
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Sim Đình.application
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Sim Đình.exe
+C:\Users\AnhQuang\Desktop\sale\sale\sale-app\sale-app\obj\Debug\Tạp Hóa Sim Đình.pdb

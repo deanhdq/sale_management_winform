@@ -30,6 +30,7 @@ namespace sale_app
         {
             frmUnit frmUnit = new frmUnit(this);
             frmUnit.btnEdit.Visible = false;
+            frmUnit.AcceptButton = frmUnit.btnSave;
             frmUnit.ShowDialog();
         }
 
@@ -38,12 +39,13 @@ namespace sale_app
             string colName = dataGridView1.Columns[e.ColumnIndex].Name;
             if (colName == "edit")
             {
-                frmUnit frmCategory = new frmUnit(this);
-                frmCategory.btnSave.Visible = false;
-                frmCategory.lbID.Text = dataGridView1[3, e.RowIndex].Value.ToString();
-                frmCategory.tbName.Text = dataGridView1[4, e.RowIndex].Value.ToString();
-                frmCategory.tbNote.Text = dataGridView1[5, e.RowIndex].Value.ToString();
-                frmCategory.ShowDialog();
+                frmUnit frmU = new frmUnit(this);
+                frmU.btnSave.Visible = false;
+                frmU.AcceptButton = frmU.btnEdit;
+                frmU.lbID.Text = dataGridView1[3, e.RowIndex].Value.ToString();
+                frmU.tbName.Text = dataGridView1[4, e.RowIndex].Value.ToString();
+                frmU.tbNote.Text = dataGridView1[5, e.RowIndex].Value.ToString();
+                frmU.ShowDialog();
             }
             else if (colName == "remove")
             {

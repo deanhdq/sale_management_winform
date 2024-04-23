@@ -19,15 +19,15 @@ namespace sale_app
     public partial class frmQuantity : Form
     {
 
-        POS pos;
+        private POS frmPOS;
         private int productId;
         private string transactionNo;
         private string productName;
 
-        public frmQuantity(POS frmTest)
+        public frmQuantity(POS pos)
         {
             InitializeComponent();
-            this.pos = frmTest;
+            this.frmPOS = pos;
         }
 
         public void productDetail(int pId, string pName, string transNo)
@@ -67,16 +67,19 @@ namespace sale_app
             int totalPrice = price * quantity;
             Cart cart = new Cart(tNo, pId, pName, uName, price.ToString(), quantity, totalPrice);
             int res = CartDAO.Instance.saveCart(cart);
-
             if (res > 0)
             {
-                pos.clearSearch();
-                pos.loadProductToBill(pos.lbTransaction.Text);
-                pos.loadTotalPrice(pos.lbTransaction.Text);
-                pos.calculatorPrice();
+                frmPOS.clearSearch();
+                frmPOS.loadProductToBill(frmPOS.lbTransaction.Text);
+                frmPOS.loadTotalPrice(frmPOS.lbTransaction.Text);
+                frmPOS.calculatorPrice();
+                this.Dispose();
+            }
+            else
+            {
+                MessageBox.Show("Lỗi khi thêm sản phẩm vào hóa đơn!", "Cảnh báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
                 this.Dispose();
             }
         }
     }
-
 }

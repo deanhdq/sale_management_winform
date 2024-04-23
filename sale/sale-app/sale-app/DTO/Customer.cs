@@ -14,16 +14,16 @@ namespace sale_app.DAO
         private string address;
         private string phoneNumber;
         private string note;
-        private int enable;
+        
 
-        public Customer(string id, string name, string address, string phoneNumber, string note, int enable)
+        public Customer(string id, string name, string address, string phoneNumber, string note)
         {
             this.ID = id;
             this.Name = name;
             this.Address = address;
             this.PhoneNumber = phoneNumber;
             this.Note = note;
-            this.Enable = enable;
+          
         }
         public Customer(DataRow row)
         {
@@ -38,6 +38,6 @@ namespace sale_app.DAO
         public string Address { get => address; set => address = value; }
         public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
         public string Note { get => note; set => note = value; }
-        public int Enable { get => enable; set => enable = value; }
+       
     }
 }

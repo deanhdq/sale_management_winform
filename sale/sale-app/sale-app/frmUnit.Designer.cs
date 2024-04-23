@@ -31,7 +31,6 @@ namespace sale_app
         {
             this.panalHeader = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbID = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
@@ -41,9 +40,10 @@ namespace sale_app
             this.label4 = new System.Windows.Forms.Label();
             this.tbName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panalHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panalHeader
@@ -54,7 +54,7 @@ namespace sale_app
             this.panalHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panalHeader.Location = new System.Drawing.Point(0, 0);
             this.panalHeader.Name = "panalHeader";
-            this.panalHeader.Size = new System.Drawing.Size(772, 62);
+            this.panalHeader.Size = new System.Drawing.Size(772, 50);
             this.panalHeader.TabIndex = 3;
             // 
             // label5
@@ -62,23 +62,11 @@ namespace sale_app
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(285, 18);
+            this.label5.Location = new System.Drawing.Point(285, 11);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(202, 29);
             this.label5.TabIndex = 1;
             this.label5.Text = "Tạp hóa Sim Đình";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox1.Image = global::sale_app.Properties.Resources.Close_Window_Red;
-            this.pictureBox1.Location = new System.Drawing.Point(708, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 62);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // groupBox1
             // 
@@ -91,13 +79,13 @@ namespace sale_app
             this.groupBox1.Controls.Add(this.tbName);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(0, 77);
+            this.groupBox1.Font = new System.Drawing.Font("Roboto Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(0, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(772, 416);
+            this.groupBox1.Size = new System.Drawing.Size(772, 424);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Quản lí đơn vị tính";
+            this.groupBox1.Text = "Quản lý đơn vị tính";
             // 
             // lbID
             // 
@@ -126,6 +114,7 @@ namespace sale_app
             // btnEdit
             // 
             this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
+            this.btnEdit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnEdit.FlatAppearance.BorderSize = 0;
             this.btnEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdit.ForeColor = System.Drawing.Color.White;
@@ -166,7 +155,7 @@ namespace sale_app
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(50, 148);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 23);
+            this.label4.Size = new System.Drawing.Size(89, 23);
             this.label4.TabIndex = 6;
             this.label4.Text = "Ghi chú:";
             // 
@@ -182,14 +171,27 @@ namespace sale_app
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(50, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 23);
+            this.label1.Size = new System.Drawing.Size(159, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên đơn vị tính:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox1.Image = global::sale_app.Properties.Resources.Close_Window_Red;
+            this.pictureBox1.Location = new System.Drawing.Point(708, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // frmUnit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(772, 493);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox1);
@@ -201,9 +203,9 @@ namespace sale_app
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panalHeader.ResumeLayout(false);
             this.panalHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

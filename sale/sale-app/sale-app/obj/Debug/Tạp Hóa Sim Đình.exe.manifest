@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Tạp Hóa Đình Sim.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Tạp Hóa Sim Đình.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Shopping Cart.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Tạp Hóa Đình Sim" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-    <commandLine file="Tạp Hóa Đình Sim.exe" parameters="" />
+    <assemblyIdentity name="Tạp Hóa Sim Đình" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Tạp Hóa Sim Đình.exe" parameters="" />
   </entryPoint>
   <trustInfo>
     <security>
@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tạp Hóa Đình Sim.exe" size="160240">
-      <assemblyIdentity name="Tạp Hóa Đình Sim" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tạp Hóa Sim Đình.exe" size="186352">
+      <assemblyIdentity name="Tạp Hóa Sim Đình" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>E3xCcVOAGt9LCNYInWmzC0XF5X7eNvVuFbV4gBuM44o=</dsig:DigestValue>
+        <dsig:DigestValue>4/C3SA6FZC8TodFYbUMXzKXkey4OJ9jFNyqMwzS+3js=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -111,7 +111,7 @@
       <dsig:DigestValue>HP/CplmHs+sTm7EVS76Hf1QK944hY3KzsbfkM4Rh/4s=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Tạp Hóa Đình Sim.exe.config" size="189">
+  <file name="Tạp Hóa Sim Đình.exe.config" size="189">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />

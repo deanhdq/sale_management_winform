@@ -1,5 +1,6 @@
 ﻿using sale_app.DAO;
 using sale_app.DTO;
+using sale_app.Utils;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace sale_app
 {
@@ -81,30 +83,14 @@ namespace sale_app
         {
             this.tbSearch.Clear();
             this.tbSearch.Focus();
+
         }
         public void loadTotalPrice(string tNo)
         {
             lbTotalPrice.Text = CartDAO.Instance.getTotalPrice(tNo);
         }
-        private int ConvertToInteger(string input)
-        {
-            // Loại bỏ dấu chấm và dấu phẩy phân tách hàng nghìn
-            string cleanInput = input.Replace(".", "").Replace(",", "");
 
-            // Thực hiện phân tích chuỗi thành số nguyên
-            if (int.TryParse(cleanInput, NumberStyles.AllowThousands, CultureInfo.InvariantCulture, out int number))
-            {
-                return number;
-            }
-            else
-            {
-                return -1; // Trả về -1 nếu không thể chuyển đổi
-            }
-        }
-        private string ConvertToCurrency(int number)
-        {
-            return string.Format("{0:#,##0}", number);
-        }
+
         public void createNewTransaction()
         {
             getTransactionAndDate();
@@ -113,7 +99,7 @@ namespace sale_app
             tbDiscount.Clear();
             lbChange.Text = "0";
             loadTotalPrice(lbTransaction.Text);
-            tbSearch.Focus();
+            clearSearch();
         }
         public void calculatorPrice()
         {
@@ -133,10 +119,10 @@ namespace sale_app
                 {
                     discount = Int32.Parse(tbDiscount.Text);
                 }
-                int changePrice = customerPay - ConvertToInteger(lbTotalPrice.Text) - discount;
+                int changePrice = customerPay - NumberComon.Instance.ConvertToInteger(lbTotalPrice.Text) - discount;
                 if (changePrice >= 0)
                 {
-                    lbChange.Text = ConvertToCurrency(changePrice);
+                    lbChange.Text = NumberComon.Instance.ConvertToCurrency(changePrice);
                 }
                 else
                 {
@@ -149,6 +135,7 @@ namespace sale_app
         private void tbCustomerPay_TextChanged(object sender, EventArgs e)
         {
             calculatorPrice();
+
         }
 
         private void tbCustomerPay_KeyPress(object sender, KeyPressEventArgs e)
@@ -233,6 +220,20 @@ namespace sale_app
                     MessageBox.Show("Xóa sản phẩm thất bại!", "Xóa sản phẩm", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void btnDebt_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewBill.Rows.Count == 0)
+            {
+                MessageBox.Show("Chưa có sản phẩm");
+            }
+            else
+            {
+                FrmAddDebts frm = new FrmAddDebts(this);
+                frm.ShowDialog();
+            }
+
         }
     }
 }

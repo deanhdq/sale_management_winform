@@ -79,5 +79,20 @@ namespace sale_app
         {
             this.Dispose();
         }
+
+        private void btnDebt_Click(object sender, EventArgs e)
+        {
+            if (displayForm != null)
+            {
+                displayForm.Dispose();
+            }
+            pbExit.Visible = false;
+            displayForm = new FrmDebtsList();
+            displayForm.TopLevel = false;
+            panelRight.Controls.Add(displayForm);
+            displayForm.BringToFront();
+            displayForm.Show();
+
+        }
     }
 }

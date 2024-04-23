@@ -1,4 +1,5 @@
 ﻿using sale_app.DTO;
+using sale_app.Utils;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -38,10 +39,7 @@ namespace sale_app.DAO
                 return result.ToString();
             }
         }
-        private string ConvertToCurrency(int number)
-        {
-            return string.Format("{0:#,##0}", number);
-        }
+ 
 
 
         public int saveCart(Cart cart)
@@ -89,7 +87,7 @@ namespace sale_app.DAO
 
                 totalPrice = totalPrice + cart.TotalPrice;
             }
-            return this.ConvertToCurrency(totalPrice);
+            return NumberComon.Instance.ConvertToCurrency(totalPrice);
         }
 
         public int deleteProductFromCart(string tNo, int pId, string uName)

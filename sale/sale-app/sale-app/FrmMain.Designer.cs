@@ -34,10 +34,10 @@ namespace sale_app
             this.label1 = new System.Windows.Forms.Label();
             this.pbExit = new System.Windows.Forms.PictureBox();
             this.panelLeft = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnUnit = new System.Windows.Forms.Button();
             this.btnCustomer = new System.Windows.Forms.Button();
             this.btnDebt = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnUnit = new System.Windows.Forms.Button();
             this.btnProduct = new System.Windows.Forms.Button();
             this.btnPOS = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -67,9 +67,9 @@ namespace sale_app
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(772, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(354, 25);
+            this.label1.Size = new System.Drawing.Size(359, 25);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Tạp hóa Sim Đình - Quản lí bán hàng";
+            this.label1.Text = "Tạp hóa Sim Đình - Quản lý bán hàng";
             // 
             // pbExit
             // 
@@ -86,10 +86,10 @@ namespace sale_app
             // panelLeft
             // 
             this.panelLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
-            this.panelLeft.Controls.Add(this.button2);
-            this.panelLeft.Controls.Add(this.btnUnit);
             this.panelLeft.Controls.Add(this.btnCustomer);
             this.panelLeft.Controls.Add(this.btnDebt);
+            this.panelLeft.Controls.Add(this.button2);
+            this.panelLeft.Controls.Add(this.btnUnit);
             this.panelLeft.Controls.Add(this.btnProduct);
             this.panelLeft.Controls.Add(this.btnPOS);
             this.panelLeft.Controls.Add(this.panel1);
@@ -98,6 +98,48 @@ namespace sale_app
             this.panelLeft.Name = "panelLeft";
             this.panelLeft.Size = new System.Drawing.Size(340, 948);
             this.panelLeft.TabIndex = 1;
+            // 
+            // btnCustomer
+            // 
+            this.btnCustomer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCustomer.FlatAppearance.BorderSize = 0;
+            this.btnCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(158)))), ((int)(((byte)(132)))));
+            this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomer.ForeColor = System.Drawing.Color.White;
+            this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
+            this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCustomer.Location = new System.Drawing.Point(0, 456);
+            this.btnCustomer.Name = "btnCustomer";
+            this.btnCustomer.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnCustomer.Size = new System.Drawing.Size(340, 68);
+            this.btnCustomer.TabIndex = 7;
+            this.btnCustomer.Text = "   Quản lý khách hàng";
+            this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCustomer.UseVisualStyleBackColor = true;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
+            // 
+            // btnDebt
+            // 
+            this.btnDebt.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDebt.FlatAppearance.BorderSize = 0;
+            this.btnDebt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(158)))), ((int)(((byte)(132)))));
+            this.btnDebt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDebt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDebt.ForeColor = System.Drawing.Color.White;
+            this.btnDebt.Image = ((System.Drawing.Image)(resources.GetObject("btnDebt.Image")));
+            this.btnDebt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDebt.Location = new System.Drawing.Point(0, 388);
+            this.btnDebt.Name = "btnDebt";
+            this.btnDebt.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.btnDebt.Size = new System.Drawing.Size(340, 68);
+            this.btnDebt.TabIndex = 8;
+            this.btnDebt.Text = "   Quản lý mua nợ";
+            this.btnDebt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDebt.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDebt.UseVisualStyleBackColor = true;
+            this.btnDebt.Click += new System.EventHandler(this.btnDebt_Click);
             // 
             // button2
             // 
@@ -130,57 +172,16 @@ namespace sale_app
             this.btnUnit.ForeColor = System.Drawing.Color.White;
             this.btnUnit.Image = ((System.Drawing.Image)(resources.GetObject("btnUnit.Image")));
             this.btnUnit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUnit.Location = new System.Drawing.Point(0, 456);
+            this.btnUnit.Location = new System.Drawing.Point(0, 320);
             this.btnUnit.Name = "btnUnit";
             this.btnUnit.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btnUnit.Size = new System.Drawing.Size(340, 68);
             this.btnUnit.TabIndex = 6;
-            this.btnUnit.Text = "   Quản lí đơn vị tính";
+            this.btnUnit.Text = "   Quản lý đơn vị tính";
             this.btnUnit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnUnit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnUnit.UseVisualStyleBackColor = true;
             this.btnUnit.Click += new System.EventHandler(this.btnUnit_Click);
-            // 
-            // btnCustomer
-            // 
-            this.btnCustomer.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCustomer.FlatAppearance.BorderSize = 0;
-            this.btnCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(158)))), ((int)(((byte)(132)))));
-            this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomer.ForeColor = System.Drawing.Color.White;
-            this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
-            this.btnCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCustomer.Location = new System.Drawing.Point(0, 388);
-            this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnCustomer.Size = new System.Drawing.Size(340, 68);
-            this.btnCustomer.TabIndex = 7;
-            this.btnCustomer.Text = "   Quản lí khách hàng";
-            this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCustomer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCustomer.UseVisualStyleBackColor = true;
-            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
-            // 
-            // btnDebt
-            // 
-            this.btnDebt.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDebt.FlatAppearance.BorderSize = 0;
-            this.btnDebt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(158)))), ((int)(((byte)(132)))));
-            this.btnDebt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDebt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDebt.ForeColor = System.Drawing.Color.White;
-            this.btnDebt.Image = ((System.Drawing.Image)(resources.GetObject("btnDebt.Image")));
-            this.btnDebt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDebt.Location = new System.Drawing.Point(0, 320);
-            this.btnDebt.Name = "btnDebt";
-            this.btnDebt.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnDebt.Size = new System.Drawing.Size(340, 68);
-            this.btnDebt.TabIndex = 8;
-            this.btnDebt.Text = "   Quản lí mua nợ";
-            this.btnDebt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDebt.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDebt.UseVisualStyleBackColor = true;
             // 
             // btnProduct
             // 
@@ -197,7 +198,7 @@ namespace sale_app
             this.btnProduct.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btnProduct.Size = new System.Drawing.Size(340, 68);
             this.btnProduct.TabIndex = 4;
-            this.btnProduct.Text = "   Quản lí sản phẩm";
+            this.btnProduct.Text = "   Quản lý sản phẩm";
             this.btnProduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnProduct.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProduct.UseVisualStyleBackColor = true;

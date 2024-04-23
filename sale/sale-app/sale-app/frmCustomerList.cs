@@ -40,6 +40,9 @@ namespace sale_app
             {
                 frmCustomer frmCustomer = new frmCustomer(this);
                 frmCustomer.btnSave.Visible = false;
+                frmCustomer.AcceptButton = frmCustomer.btnEdit;
+                string customer_id = dataGridView1.Rows[e.RowIndex].Cells["id"].Value.ToString();
+
                 frmCustomer.lbID.Text = dataGridView1[3, e.RowIndex].Value.ToString();
                 frmCustomer.tbName.Text = dataGridView1[4, e.RowIndex].Value.ToString();
                 frmCustomer.tbPhoneNumber.Text = dataGridView1[6, e.RowIndex].Value.ToString();
@@ -51,7 +54,7 @@ namespace sale_app
             {
                 if (MessageBox.Show("Xác nhận xóa khách hàng?", "Xóa khách hàng", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    int result = CustomerDAO.Instance.deleteCustomerById(dataGridView1[3, e.RowIndex].Value.ToString());
+                    int result = CustomerDAO.Instance.deleteCustomerById(dataGridView1[4, e.RowIndex].Value.ToString());
                     if (result > 0)
                     {
                         MessageBox.Show("Xoá khách hàng thành công!", "Xóa khách hàng", MessageBoxButtons.OK, MessageBoxIcon.Information);

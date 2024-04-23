@@ -103,6 +103,16 @@ namespace sale_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Loan {
+            get {
+                object obj = ResourceManager.GetObject("Loan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Male_User {
             get {
                 object obj = ResourceManager.GetObject("Male User", resourceCulture);
@@ -256,6 +266,16 @@ namespace sale_app.Properties {
         internal static System.Drawing.Bitmap Tick_Box {
             get {
                 object obj = ResourceManager.GetObject("Tick Box", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Time_Machine {
+            get {
+                object obj = ResourceManager.GetObject("Time Machine", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

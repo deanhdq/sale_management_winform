@@ -6,8 +6,24 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|sale-app||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|c:\\users\\anhquang\\desktop\\sale\\sale\\sale-app\\sale-app\\frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|solutionrelative:sale-app\\frmproductlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|c:\\users\\anhquang\\desktop\\sale\\sale\\sale-app\\sale-app\\dao\\debtdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|solutionrelative:sale-app\\dao\\debtdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|c:\\users\\anhquang\\desktop\\sale\\sale\\sale-app\\sale-app\\frmdebtslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|solutionrelative:sale-app\\frmdebtslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|c:\\users\\anhquang\\desktop\\sale\\sale\\sale-app\\sale-app\\frmdebtslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|solutionrelative:sale-app\\frmdebtslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|c:\\users\\anhquang\\desktop\\sale\\sale\\sale-app\\sale-app\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|solutionrelative:sale-app\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|c:\\users\\anhquang\\desktop\\sale\\sale\\sale-app\\sale-app\\dto\\pay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|solutionrelative:sale-app\\dto\\pay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF87DE67-80D8-43BA-AD75-4122AA019C30}|sale-app\\sale-app.csproj|c:\\users\\anhquang\\desktop\\sale\\sale\\sale-app\\sale-app\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
@@ -31,20 +47,71 @@
               "ToolTip": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\sale-app.csproj",
               "RelativeToolTip": "sale-app\\sale-app.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-21T07:58:47.445Z",
+              "WhenOpened": "2024-04-23T09:35:11.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmDebtsList.cs",
+              "DocumentMoniker": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\FrmDebtsList.cs",
+              "RelativeDocumentMoniker": "sale-app\\FrmDebtsList.cs",
+              "ToolTip": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\FrmDebtsList.cs",
+              "RelativeToolTip": "sale-app\\FrmDebtsList.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:34:21.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmDebtsList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\FrmDebtsList.cs",
+              "RelativeDocumentMoniker": "sale-app\\FrmDebtsList.cs",
+              "ToolTip": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\FrmDebtsList.cs [Design]",
+              "RelativeToolTip": "sale-app\\FrmDebtsList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:34:03.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "POS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\POS.cs",
+              "RelativeDocumentMoniker": "sale-app\\POS.cs",
+              "ToolTip": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\POS.cs [Design]",
+              "RelativeToolTip": "sale-app\\POS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:33:45.248Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pay.cs",
+              "DocumentMoniker": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\DTO\\Pay.cs",
+              "RelativeDocumentMoniker": "sale-app\\DTO\\Pay.cs",
+              "ToolTip": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\DTO\\Pay.cs",
+              "RelativeToolTip": "sale-app\\DTO\\Pay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:00:23.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmProductList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\frmProductList.cs",
-              "RelativeDocumentMoniker": "sale-app\\frmProductList.cs",
-              "ToolTip": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\frmProductList.cs [Design]",
-              "RelativeToolTip": "sale-app\\frmProductList.cs [Design]",
+              "Title": "DebtDAO.cs",
+              "DocumentMoniker": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\DAO\\DebtDAO.cs",
+              "RelativeDocumentMoniker": "sale-app\\DAO\\DebtDAO.cs",
+              "ToolTip": "C:\\Users\\AnhQuang\\Desktop\\sale\\sale\\sale-app\\sale-app\\DAO\\DebtDAO.cs",
+              "RelativeToolTip": "sale-app\\DAO\\DebtDAO.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAtwD8AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T07:55:44.353Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-23T08:59:35.231Z",
+              "EditorCaption": ""
             }
           ]
         }

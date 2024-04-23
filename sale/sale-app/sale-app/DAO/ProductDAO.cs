@@ -50,7 +50,7 @@ namespace sale_app.DAO
         public List<Product> searchProductByName(string search)
         {
             string name = string.Format("%{0}%", search);
-            string query = "SELECT p.id       AS product_id,\r\n       p.name     AS product_name,\r\n       p.bar_code AS product_barcode,\r\n       p.note     AS product_note,\r\n       c.name     AS category_name\r\nFROM products p\r\n         JOIN categories c ON p.category_id = c.id\r\nWHERE p.bar_code LIKE @search OR p.name LIKE @name ";
+            string query = "SELECT p.id AS product_id, p.name AS product_name, p.bar_code AS product_barcode, p.note AS product_note FROM products p WHERE p.bar_code LIKE @search OR p.name LIKE @name ";
             List<Product> products = new List<Product>();
             DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { search, name });
             foreach (DataRow item in data.Rows)

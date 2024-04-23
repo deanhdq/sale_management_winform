@@ -35,6 +35,7 @@ namespace sale_app
             frmProduct frm = new frmProduct(this);
             frm.btnEdit.Visible = false;
             frm.ShowDialog();
+
         }
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
@@ -46,8 +47,8 @@ namespace sale_app
                 frmProduct.btnSave.Visible = false;
                 frmProduct.lbID.Text = dataGridView1[4, e.RowIndex].Value.ToString();
                 frmProduct.tbBarcode.Text = dataGridView1[5, e.RowIndex].Value.ToString();
-                frmProduct.tbProductName.Text = dataGridView1[6, e.RowIndex].Value.ToString();
-                frmProduct.tbNote.Text = dataGridView1[7, e.RowIndex].Value.ToString();
+                frmProduct.tbProductName.Text = dataGridView1[7, e.RowIndex].Value.ToString();
+                frmProduct.tbNote.Text = dataGridView1[6, e.RowIndex].Value.ToString();
                 frmProduct.ShowDialog();
             }
             else if (colName == "remove")
@@ -76,7 +77,7 @@ namespace sale_app
                 frmPriceList frmPriceList = new frmPriceList(this);
                 frmPriceList.lbID.Text = dataGridView1[4, e.RowIndex].Value.ToString();
                 frmPriceList.tbBarcode.Text = dataGridView1[5, e.RowIndex].Value.ToString();
-                frmPriceList.tbProductName.Text = dataGridView1[6, e.RowIndex].Value.ToString();
+                frmPriceList.tbProductName.Text = dataGridView1[7, e.RowIndex].Value.ToString();
                 frmPriceList.loadProductPriceList();
                 frmPriceList.ShowDialog();
             }
@@ -88,8 +89,7 @@ namespace sale_app
         {
             if (tbSearch.Text == String.Empty)
             {
-                loadProducts();
-                
+                loadProducts();   
             }
             else
             {
